@@ -1,6 +1,6 @@
 # 时钟待办 · Clock Todo Widget
 
-**写在前面：**这是一个完全由Claude Code + deepseek v4 pro做的小玩具，自己写着玩的。没有数据库，没有多设备同步。
+这是一个完全由Claude Code + deepseek v4 pro做的小玩具，自己写着玩的。没有数据库，没有多设备同步。
 
 一个简约的桌面时钟与待办事项悬浮窗，基于 Electron 构建，支持 Windows 系统。
 
