@@ -1,0 +1,34 @@
+{
+  "name": "clock-todo-widget",
+  "version": "1.0.0",
+  "description": "桌面时钟 & 待办悬浮窗",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win portable"
+  },
+  "build": {
+    "appId": "com.clock-todo.widget",
+    "productName": "时钟待办",
+    "files": [
+      "index.html",
+      "main.js",
+      "preload.js",
+      "package.json"
+    ],
+    "win": {
+      "target": "portable"
+    },
+    "portable": {
+      "artifactName": "时钟待办.exe"
+    },
+    "toolsets": {
+      "winCodeSign": "1.1.0"
+    }
+  },
+  "devDependencies": {
+    "electron": "^36.0.0",
+    "electron-builder": "^26.8.1",
+    "electron-packager": "^17.1.2"
+  }
+}
